@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class FirstController {
 	@RequestMapping("/hi")
 	String home(ModelMap modal) {
-		System.out.println("testing in first line");
+		System.out.println("need to test again");
 		System.out.println("testing with second line");
-		System.out.printlnl("added third line");
+		System.out.println("added third line");
 		return "hello";
 	}
 }
