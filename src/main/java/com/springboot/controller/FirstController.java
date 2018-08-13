@@ -9,7 +9,7 @@ public class FirstController {
 	@RequestMapping("/hi")
 	String home(ModelMap modal) {
 		System.out.println("test changed");
-		System.out.println("testing outgoing changes..!");
+		System.out.println("testing with second line");
 		return "hello";
 	}
 }
