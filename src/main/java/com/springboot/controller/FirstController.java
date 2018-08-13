@@ -8,10 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class FirstController {
 	@RequestMapping("/hi")
 	String home(ModelMap modal) {
-		System.out.println("incoming changes");
-		System.out.println("outgoing changes");
+		System.out.println("in changes");
+		System.out.println("out changes");
 		System.out.println("merge operations");
-		System.out.println("all done");
 		return "hello";
 	}
 }
